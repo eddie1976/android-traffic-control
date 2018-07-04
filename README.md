@@ -40,4 +40,5 @@ Because my girl uses Google Nexus 5 with LineageOS 14.1, I will use it to explai
 Feel free to change script path accroding to your need.
 
 PM me if you are also interested about this side project (help teenagers and their parents).
+
 https://www.linkedin.com/in/eddiec9968/
