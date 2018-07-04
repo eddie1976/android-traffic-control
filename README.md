@@ -15,6 +15,16 @@ Because my girl uses Google Nexus 5 with LineageOS 14.1, I will use it to explai
 	
 	2.1 Copy init_d.rc to /system/etc/init
 	
+		service init_d /system/bin/sh /system/bin/sysinit
+			user root
+			group root
+			disabled
+			oneshot
+			seclabel u:r:sudaemon:s0
+
+		on property:sys.boot_completed=1 && property:sys.logbootcomplete=1
+			start init_d
+	
 	2.2 Copy startup.sh to /system/etc/init.d
 
 3. Install BusyBox App for additional Linux utilities.
