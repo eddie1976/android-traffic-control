@@ -19,7 +19,7 @@ Because my girl uses Google Nexus 5 with LineageOS 14.1, I will use it to explai
 
 3. Install BusyBox App for additional Linux utilities.
 
-	3.1 What we need are crond and awk.
+	3.1 What we need are "crond" and "awk".
 	
 	3.2 Apps on Google Play: https://play.google.com/store/apps/details?id=stericson.busybox
 
@@ -31,8 +31,13 @@ Because my girl uses Google Nexus 5 with LineageOS 14.1, I will use it to explai
 
 	4.3 Copy tc.sh /system/bin
 	
+	4.3.1 Source code of tc.sh: https://android.stackexchange.com/questions/33661/limit-the-internet-bandwidth-of-android-device
+	
+	4.3.2 I tried "BradyBound" (iptables solutions). It didn't work with YouTube.
+	
 	4.4 Modify tc.sh (rate and ceil of Download/Upload, Interface)
   
 Feel free to change script path accroding to your need.
 
 PM me if you are also interested about this side project (help teenagers and their parents).
+https://www.linkedin.com/in/eddiec9968/
