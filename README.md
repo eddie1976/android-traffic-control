@@ -31,9 +31,9 @@ Because my girl uses Google Nexus 5 with LineageOS 14.1, I will use it to explai
 
 	4.3 Copy tc.sh /system/bin
 	
-		4.3.1 Source code of tc.sh: https://android.stackexchange.com/questions/33661/limit-the-internet-bandwidth-of-android-device
+	4.3.1 Source code of tc.sh: https://android.stackexchange.com/questions/33661/limit-the-internet-bandwidth-of-android-device
 	
-		4.3.2 I tried "BradyBound" (iptables solutions). It didn't work with YouTube.
+	4.3.2 I tried "BradyBound" (iptables solutions). It didn't work with YouTube.
 	
 	4.4 Modify tc.sh (rate and ceil of Download/Upload, Interface)
   
