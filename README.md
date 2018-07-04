@@ -20,6 +20,8 @@ Because my girl uses Google Nexus 5 with LineageOS 14.1, I will use it to explai
 3. Install BusyBox App for additional Linux utilities.
 
 	3.1 What we need are crond and awk.
+	
+	3.2 Apps on Google Play: https://play.google.com/store/apps/details?id=stericson.busybox
 
 4. Install Traffic Control script and run it in cron job.
 
