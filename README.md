@@ -42,7 +42,7 @@ Because my girl uses Google Nexus 5 with LineageOS 14.1, I will use it to explai
 
 4. Install Traffic Control script and run it in cron job.
 
-	4.1 Copy passwd to /system/etc (for cron)
+	4.1 Copy passwd to /system/etc (for crond)
 	
 		root:x:0:0:root:/data:/system/bin/sh
 
