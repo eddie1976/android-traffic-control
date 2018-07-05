@@ -48,6 +48,7 @@ Because my girl uses Google Nexus 5 with LineageOS 14.1, I will use it to explai
 
 	4.2 Copy root to /data/crontab (for crond)
 	
+		# @reboot can't be used after I check busybox/crond.c because / is read only
 		0 * * * * /system/bin/tc.sh stop
 		1 * * * * /system/bin/tc.sh start
 
