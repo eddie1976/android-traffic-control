@@ -58,7 +58,20 @@ Because my girl uses Google Nexus 5 with LineageOS 14.1, I will use it to explai
 	4.3.2 I tried "BradyBound" (iptables solutions). It didn't work with YouTube.
 	
 	4.4 Modify tc.sh (rate and ceil of Download/Upload, Interface)
-  
+	
+		# The network interface we're planning on limiting bandwidth.
+		IF=wlan0
+
+		# Download limit (in mega bits)
+		DNLD=4kbps
+
+		# Upload limit (in mega bits)
+		UPLD=4kbps
+
+		# rate is min bandwidth and ceil is max
+		$TC class add dev $IF parent 1: classid 1:1 htb rate $DNLD ceil 5kbps
+		$TC class add dev $IF parent 1: classid 1:2 htb rate $UPLD ceil 5kbps
+
 Feel free to change script path accroding to your need.
 
 PM me if you are also interested about this side project (help teenagers and their parents).
